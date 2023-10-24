@@ -23,7 +23,7 @@ header {
     background-color: var(--h-color);
 }
 
-#navbar .row.row-cols-3 .col.only-t {
+#navbar .row-cols-md-4 .col.only-t {
     display: none;
 }
 /**********
@@ -40,7 +40,7 @@ RESPONSIVE
 **********/
 
 @media (min-width: 576px) {
-    #navbar .row.row-cols-3 .col.only-t {
+    #navbar .row-cols-md-4 .col.only-t {
         display: flex;
     }
  }
