@@ -1,7 +1,8 @@
-
-/**********
-IMPORT
-**********/
+/**************
+IMPORT---------
+***************/
 
 @import '_partials/variables.css';
 @import '_partials/common.css';
+@import '_partials/components/component-icon.css';
+@import '_partials/components/component-image.css';

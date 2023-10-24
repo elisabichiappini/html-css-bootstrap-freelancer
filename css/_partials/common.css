@@ -2,7 +2,8 @@
 COMMON---------
 ***************/
 
-#navbar, 
+/* header*/
+header nav.navbar, 
 #privacy {
     background-color: var(--ec-hf-bg);
 }
@@ -12,6 +13,7 @@ COMMON---------
     background-color: var(--ec-main-bg2);
 }
 
+/* header*/
 #portfolio, 
 #contact {
     color: var(--ec-black);
@@ -29,6 +31,7 @@ span.ec-color-green {
     color: var(--ec-main-bg2);
 }
 
+/* footer*/
 .ec-text-privacy {
     font-size: .5rem;
 }

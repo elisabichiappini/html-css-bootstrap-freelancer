@@ -1,0 +1,11 @@
+/**************
+COMPONENT ICON-
+***************/
+.ec-component-icon {
+    position: relative;
+    display: inline;
+}
+.ec-component-icon i {
+    font-size: calc(1.275rem + .3vw);
+}
+/* 

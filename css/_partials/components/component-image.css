@@ -1,0 +1,13 @@
+/**************
+COMPONENT IMAGE-
+***************/
+
+.ec-component-image img{
+    width: 100%;
+    display: block;
+}
+
+.ec-component-image {
+    border-radius: 20px;
+    overflow: hidden;
+}
