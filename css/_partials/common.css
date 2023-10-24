@@ -13,17 +13,18 @@ COMMON---------
 }
 
 #portfolio, 
-#direct {
+#contact {
     color: var(--ec-black);
 }
 
-#contact {
+#social {
     background-color: var(--ec-main-bg1);
 }
 
 li {
  list-style-type: none;
 }
-#portfolio .content {
+
+/* #portfolio .content {
     background-color: pink;
-}
+} */
