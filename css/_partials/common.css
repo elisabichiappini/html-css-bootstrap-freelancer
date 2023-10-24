@@ -24,3 +24,6 @@ COMMON---------
 li {
  list-style-type: none;
 }
+#portfolio .content {
+    background-color: pink;
+}
