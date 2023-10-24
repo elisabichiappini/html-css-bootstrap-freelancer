@@ -1,52 +1,7 @@
-/**********
-VARIABLES
-**********/
-
-:root {
-    --h-color: #2c3e50;
-    --main-color1: #3a546d;
-    --main-color2: #1abc9c;
-    --bg-color-white: #ffffff;
-    --bg-color-black: #000000;
-}
 
 /**********
-CSS STYLE
+IMPORT
 **********/
 
-
-header .col {
-    background-color: #1abc9c;
-}
-
-header {
-    background-color: var(--h-color);
-}
-
-#navbar .row-cols-md-4 .col.only-t {
-    display: none;
-}
-/**********
-TYPOGRAPHY
-**********/
-
-header {
-    color: var(--bg-color-white);
-}
-
-
-/**********
-RESPONSIVE
-**********/
-
-@media (min-width: 576px) {
-    #navbar .row-cols-md-4 .col.only-t {
-        display: flex;
-    }
- }
-
-
-@media (min-width: 768px) { }
-
-
-@media (min-width: 992px) { }
+@import '_partials/variables.css';
+@import '_partials/common.css';

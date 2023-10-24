@@ -1,0 +1,25 @@
+/**************
+COMMON---------
+***************/
+
+header {
+    color: var(--ec-white);
+}
+#navbar, 
+#privacy {
+    background-color: var(--ec-hf-bg);
+}
+
+#jumbotron,
+#about {
+    background-color: var(--ec-main-bg2);
+}
+
+#portfolio, 
+#direct {
+    color: var(--ec-black);
+}
+
+#contact {
+    background-color: var(--ec-main-bg1);
+}
