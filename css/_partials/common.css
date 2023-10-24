@@ -2,9 +2,6 @@
 COMMON---------
 ***************/
 
-header {
-    color: var(--ec-white);
-}
 #navbar, 
 #privacy {
     background-color: var(--ec-hf-bg);
@@ -22,4 +19,8 @@ header {
 
 #contact {
     background-color: var(--ec-main-bg1);
+}
+
+li {
+ list-style-type: none;
 }
