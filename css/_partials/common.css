@@ -25,6 +25,10 @@ li {
  list-style-type: none;
 }
 
-/* #portfolio .content {
-    background-color: pink;
-} */
+span.ec-color-green {
+    color: var(--ec-main-bg2);
+}
+
+.ec-text-privacy {
+    font-size: .5rem;
+}
