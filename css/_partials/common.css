@@ -28,7 +28,7 @@ header nav.navbar,
 }
 
 li {
- list-style-type: none;
+    list-style-type: none;
 }
 
 span.ec-color-green {
@@ -36,10 +36,14 @@ span.ec-color-green {
 }
 
 #contact .btn-primary {
-background-color: var(--ec-main-bg2);
+    background-color: var(--ec-main-bg2);
+}
+
+#about [type="button"] > i {
+    margin-right: .25rem;
 }
 
 /* footer*/
 .ec-text-privacy {
-    font-size: .5rem;
+    font-size: .75rem
 }
