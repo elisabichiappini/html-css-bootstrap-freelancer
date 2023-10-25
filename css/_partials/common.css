@@ -31,6 +31,10 @@ span.ec-color-green {
     color: var(--ec-main-bg2);
 }
 
+#contact .btn-primary {
+background-color: var(--ec-main-bg2);
+}
+
 /* footer*/
 .ec-text-privacy {
     font-size: .5rem;

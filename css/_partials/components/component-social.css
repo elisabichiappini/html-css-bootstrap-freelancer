@@ -1,0 +1,13 @@
+/**************
+COMPONENT SOCIAL
+***************/
+
+.content.ec-component-social {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    font-size: 1.25rem;
+    vertical-align: middle;
+    line-height: 52px;
+}
