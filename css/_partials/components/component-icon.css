@@ -1,22 +1,23 @@
-/**************
-COMPONENT ICON-
-***************/
-a.ec-component-icon {
+/********************
+COMPONENT ICON 
+*********************/
+
+.ec-component-icon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a.ec-component-icon::after,
-a.ec-component-icon::before {
+.ec-component-icon::after,
+.ec-component-icon::before {
   content:'';
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 4px;
-  background-color: currentColor;
+  color: currentColor;
 }
 
-a.ec-component-icon i {
+.ec-component-icon i {
     margin: 5%;
 }
 /* 

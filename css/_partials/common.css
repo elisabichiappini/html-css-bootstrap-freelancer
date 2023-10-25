@@ -1,6 +1,6 @@
-/**************
-COMMON---------
-***************/
+/********************
+COMMON
+*********************/
 
 /* header*/
 header nav.navbar, 
@@ -13,8 +13,8 @@ header nav.navbar,
     background-color: var(--ec-main-bg2);
 }
 
-#jumbotron .ec-content-image {
-    max-width: 60%;
+#jumbotron .ec-content-image img {
+    max-width: 40%;
 }
 
 /* main*/
