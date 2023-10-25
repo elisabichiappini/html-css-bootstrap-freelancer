@@ -1,11 +1,22 @@
 /**************
 COMPONENT ICON-
 ***************/
-.ec-component-icon {
-    position: relative;
-    display: inline;
+a.ec-component-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.ec-component-icon i {
-    font-size: calc(1.275rem + .3vw);
+
+a.ec-component-icon::after,
+a.ec-component-icon::before {
+  content:'';
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  background-color: currentColor;
+}
+
+a.ec-component-icon i {
+    margin: 5%;
 }
 /* 

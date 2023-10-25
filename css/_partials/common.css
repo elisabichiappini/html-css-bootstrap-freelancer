@@ -13,7 +13,11 @@ header nav.navbar,
     background-color: var(--ec-main-bg2);
 }
 
-/* header*/
+#jumbotron .ec-content-image {
+    max-width: 60%;
+}
+
+/* main*/
 #portfolio, 
 #contact {
     color: var(--ec-black);
