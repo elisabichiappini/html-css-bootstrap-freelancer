@@ -2,12 +2,12 @@
 COMPONENT SOCIAL
 *********************/
 
-.content.ec-component-social {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
+
+a.ec-component-social {
+    all: unset;
+    display: inline-block;
+    width: 3.25rem;
+    height: 3.25rem;
     border: 1px solid currentColor;
-    font-size: 1.25rem;
-    vertical-align: middle;
-    line-height: 52px;
+    line-height: 3.25rem;
 }
